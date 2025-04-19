@@ -1,18 +1,17 @@
-#include <stdio.h>
-
+#include <stdio.h> 
 int main()
-{ 
-    int n, i=1, m=0;
-    for(n=1; n<=20; n++){
-        
-        for(i=1; i<=10; i++){
-            
-        printf("%d*%d=%d\n", n, i, m);
-        m= m+n;
-
+{
+    int a, b, c;
+    for(a= 1; a<= 3; a++){
+        for(b= 1; b<= 3; b++){
+         if( b!=a){
+            for(c=1; c<=3; c++){
+                if(c!=a && c!=b){
+                    printf("%d, %d, %d\n", a, b, c);
+                }
+            }
+         }  
         }
-    } 
-        
+    }
     return 0;
-    
 }
