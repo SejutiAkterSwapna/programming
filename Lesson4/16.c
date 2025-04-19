@@ -7,7 +7,7 @@ int main()
         for(b=1; b<=3; b++){
             for(c=1; c<=3; c++){
                 if(b!=a && c!=a && c!=b){ 
-                    printf("%d, %d, %d\n", a, b, c);
+                    printf("%d, %d, %d\n ", a, b, c);
                 }
             }
         }
