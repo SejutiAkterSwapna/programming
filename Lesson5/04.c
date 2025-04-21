@@ -2,11 +2,11 @@
 int main()
 {
     double loan_amount, interest_rate, number_of_years, total_amount, monthly_amount;
-    printf("enter the loan amount:\n");
+    printf("enter the loan amount:");
     scanf("%lf", &loan_amount);
-    printf("enter the interest rete:\n");
+    printf("enter the interest rete:");
     scanf("%lf", &interest_rate);
-    printf("number of years:\n");
+    printf("number of years:");
     scanf("%lf",&number_of_years);
     
     total_amount = loan_amount + loan_amount * interest_rate/100.00;

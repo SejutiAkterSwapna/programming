@@ -2,29 +2,20 @@
 
 int main()
 {
-   double a1,a2,b1,b2,c1,c2,x,y,D;
-
-   printf("a1=");
-   scanf("%lf",&a1);
-   printf("a2=");
-   scanf("%lf",&a2);
-   printf("b1=");
-   scanf("%lf",&b1);
-   printf("b2=");
-   scanf("%lf",&b2);
-   printf("c1=");
-   scanf("%lf",&c1);
-   printf("c2=");
-   scanf("%lf",&c2);
+   double lone_amount, interest_rate, number_of_years,total_amount,mounthly_amount;
    
-   D= a1*b2 - a2*b1;
-   if((int)D==0){
-    printf("value of x and y can't be determined.\n");
-   }
-  else {x= (b2*c1 - b1*c2)/D;
-       y= (a1*c2 - a2*c1)/D;
+   printf("enter the lone amount:");
+   scanf("%lf",&lone_amount);
+   printf("enter the interest rate:");
+   scanf("%lf",&interest_rate);
+   printf("number of years:");
+   scanf("%lf",&number_of_years);
 
-   printf("x=%0.2lf, y=%0.2lf", x,y);
-  }
+   total_amount=lone_amount+lone_amount*interest_rate*number_of_years/100.00;
+   mounthly_amount=total_amount/(number_of_years*12);
+
+   printf("total amount:%0.2lf", total_amount);
+   printf("mounthly amount:%0.2lf",mounthly_amount);
+   
    return 0;
 }
