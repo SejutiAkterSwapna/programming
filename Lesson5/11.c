@@ -1,7 +1,9 @@
 #include <stdio.h>
 int main()
 {
-    int a, b, x, gcd;
+    int a, b, x, gcd, lcd;
+
+    printf("Enter two numbers:");
     scanf("%d %d", &a, &b);
     if(a<b){
         x=a;
@@ -14,6 +16,8 @@ int main()
             break;
         }
     }
-    printf("GCO is %d\n",gcd);
+    printf("GCD is %d\n",gcd);
+    lcd= a*b/gcd;
+    printf("LCM is %d\n",lcd);
     return 0;
 }
