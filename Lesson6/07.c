@@ -8,6 +8,6 @@ int main()
     printf("forth element: %d\n", ara[3]);
     printf("forth element: %d\n", ara[4]);
     printf("forth element: %d\n", ara[5]);
-    printf("forth element : %d\n", ara[6]);
+    printf("forth element: %d\n", ara[6]);
     return 0;
 }
