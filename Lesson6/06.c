@@ -8,7 +8,7 @@ int main()
     st_marks=74;
     final_marks=97;
 
-    total_marks = ft_marks/0.4+st_marks/0.4+final_marks/0.2;
+    total_marks = ft_marks/4.0+st_marks/4.0+final_marks/2.0;
     printf("%0.2lf\n",total_marks);
 
     return 0;
