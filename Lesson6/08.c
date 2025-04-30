@@ -5,7 +5,7 @@ int main()
    int i;
   
    for(i=0; i<10; i++){
-    printf("%d The element is: %d\n",i+1,ara[i]);
+    printf("%d.The element is: %d\n",i+1,ara[i]);
    }
 
    return 0;
