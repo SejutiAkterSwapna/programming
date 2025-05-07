@@ -5,7 +5,7 @@ int main ()
   
 
 
-   printf("typr a dividend:");
+   printf("type a dividend:");
    scanf("%d/n", &dividend);
 
    printf("type a divisor:");

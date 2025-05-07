@@ -5,7 +5,7 @@ int main()
     int n = 0;
 
     if(n > 0){
-        printf("Thr naumber is positive\n");
+        printf("Thr number is positive\n");
     }
     else if(n < 0){
         printf("the number is negative\n");
