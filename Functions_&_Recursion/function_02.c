@@ -2,6 +2,7 @@
 
 void printHello();
 void print_goodBye();
+
 int main(){
     printHello();
     print_goodBye();
