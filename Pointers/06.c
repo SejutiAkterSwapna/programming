@@ -1,4 +1,5 @@
 #include <stdio.h>
+//call by value.
 void square(int n){
     n = n*n;
     printf("square=%d\n",n);
