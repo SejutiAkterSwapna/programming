@@ -15,4 +15,4 @@ int main()
     printf("%d index:%d\n",i,*(ptr+i));
    }
    return 0;
-}
+} 
