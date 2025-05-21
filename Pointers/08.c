@@ -8,7 +8,7 @@ void swap(int a, int b){
 }
 
 //call by reference.
-void _swap(int *a, int *b){
+void _swap(int* a, int* b){
     int t= *a;
     *a = *b;
     *b = t;
