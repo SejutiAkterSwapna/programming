@@ -2,10 +2,9 @@
 
 void reverse(int arr[], int n){
     for(int i=0; i<n/2; i++){
-        int first_val = ++arr[i];
-        int second_val = arr[n-i-1];
-        arr[i] = second_val;
-        arr[n-i-1] = first_val;
+        int temp = arr[i];
+        arr[i] = arr[n-i-1];
+        arr[n-i-1] = temp;
     }
 }
 void print_arr(int arr[], int n){
