@@ -16,7 +16,7 @@ int main()
     printf("value of a is %d\n",a);
 
     a = 100020004000503;
-    printf("valu of a is %d\n",a);
+    printf("value of a is %d\n",a);
 
     a = - 4325987632;
     printf("value of a is %d\n",a);
